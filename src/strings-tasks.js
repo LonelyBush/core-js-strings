@@ -420,6 +420,7 @@ function reverseWords(str) {
  */
 function invertCase(str) {
   const newArr = str.split('');
+  // eslint-disable-next-line func-names
   const maped = newArr.map(function (elem) {
     if (elem === elem.toLowerCase()) {
       return elem.toUpperCase();
